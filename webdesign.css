@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-color: whitesmoke;
+      font-family: Arial, Helvetica, sans-serif;
+}
+h1   {color: green;}
+p    {color: sandybrown;}
+ 
+ 
+ 
+div {
+  border: 1px solid black;
+  padding: 10px;
+  width: 500px;
+  height:500px;
+  text-align: justify;
+}
+
+
+ 
+nav {
+	margin-top: 12px;
+	font-size: 23px;
+}
+
+nav ul {
+	justify-content: space-between;  
+	display: flex;
+}
+
+nav li {
+	text-decoration: none;
+	color: #53341f;
+	background-color: #cda470;
+	}
+
+nav li:hover{color: #888; }
+
+main {
+	margin-top: 26px;
+	display: flex;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: normal;
+	color: #cda470;
+}
+
+h2 {
+	margin-top: 15px;
+	font-size: 19px;
+	font-weight: normal;
+	color: #53341f;
+}
+
+p {
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+a {
+	color: #cda470;
+	text-decoration: none;
+}
+
+a:hover {text-decoration: underline;}
+
+
+img {margin-top: 10px;}
+
+footer {
+	margin: 5px;
+	font-size: 11px;
+	color: #Sd3619;
+}
+
+footer ul {
+display: flex;
+justify-content: space-between;	
+}
+
+15.	The footer link tags
+a.	Colour is #Sd3619
+b.	Text decoration to remove the underline 
+c.	The hover effect displays an underline.
+
